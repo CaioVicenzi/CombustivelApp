@@ -47,6 +47,7 @@ export default function App() {
         </View>
       </View>
       
+      <Text style={styles.caption}>Digite o preço por litro de cada um</Text>
 
 
       <Button
@@ -153,5 +154,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row', // Organiza os itens em uma linha
     width: '200%', // Largura total para a HStack
     justifyContent: 'space-between'
+  },
+
+  caption: {
+    fontSize: 10,
+    color: 'gray'
   }
 });
